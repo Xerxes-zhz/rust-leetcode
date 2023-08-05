@@ -1,6 +1,8 @@
-mod n29_divide_two_integers;
+mod n39_combination_sum;
 fn main() {
-    n29_divide_two_integers::Solution::divide(7i32,-3i32);
+  let s = n39_combination_sum::Solution::combination_sum(vec![2i32,3i32,6i32,8i32],8);
+    print!("{:?}",s);
+
     
      
 }
